@@ -365,11 +365,11 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+  color: #FFC013;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: inherit;
+  color: #FFC013;
   text-decoration: none;
 }
 
